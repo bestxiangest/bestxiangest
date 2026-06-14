@@ -106,6 +106,10 @@
 ## Contribution Playground
 
 <p align="center">
+  <img src="./profile-3d-contrib/profile-season-animate.svg" alt="3D contribution graph" width="98%" />
+</p>
+
+<p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bestxiangest/bestxiangest/output/github-contribution-grid-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/bestxiangest/bestxiangest/output/github-contribution-grid-snake.svg" />
