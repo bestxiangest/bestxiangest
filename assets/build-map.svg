@@ -1,0 +1,60 @@
+<svg width="1100" height="260" viewBox="0 0 1100 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">bestxiangest build map</title>
+  <desc id="desc">A light map of project directions: hardware, automation, campus products, and desktop apps.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1100" y2="260" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f8fafc"/>
+    </linearGradient>
+    <linearGradient id="wire" x1="90" y1="122" x2="1014" y2="122" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="0.34" stop-color="#14b8a6"/>
+      <stop offset="0.68" stop-color="#a3e635"/>
+      <stop offset="1" stop-color="#f59e0b"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-20%" width="120%" height="150%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#0f172a" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <rect x="4" y="4" width="1092" height="252" rx="28" fill="url(#bg)" stroke="#dbeafe"/>
+  <path d="M128 132C248 56 350 204 470 128C590 52 680 200 806 122C908 58 966 102 1014 78" stroke="url(#wire)" stroke-width="6" stroke-linecap="round" opacity="0.72"/>
+  <path d="M128 160H1014" stroke="#e2e8f0" stroke-width="2" stroke-dasharray="8 10"/>
+
+  <g filter="url(#shadow)" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+    <g transform="translate(70 54)">
+      <rect width="214" height="132" rx="22" fill="#f0f9ff" stroke="#bae6fd"/>
+      <text x="24" y="42" fill="#0369a1" font-size="22" font-weight="800">Hardware</text>
+      <text x="24" y="76" fill="#334155" font-size="15">ESP32-S3 / STM32</text>
+      <text x="24" y="102" fill="#64748b" font-size="14">sensors + feedback</text>
+      <circle cx="174" cy="46" r="18" fill="#38bdf8"/>
+      <path d="M166 46H182M174 38V54" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(318 54)">
+      <rect width="214" height="132" rx="22" fill="#ecfdf5" stroke="#bbf7d0"/>
+      <text x="24" y="42" fill="#047857" font-size="22" font-weight="800">Automation</text>
+      <text x="24" y="76" fill="#334155" font-size="15">OpenCV / Playwright</text>
+      <text x="24" y="102" fill="#64748b" font-size="14">pixels to actions</text>
+      <circle cx="174" cy="46" r="18" fill="#14b8a6"/>
+      <path d="M165 48L172 55L184 36" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g transform="translate(566 54)">
+      <rect width="214" height="132" rx="22" fill="#fefce8" stroke="#fde68a"/>
+      <text x="24" y="42" fill="#b45309" font-size="22" font-weight="800">Campus</text>
+      <text x="24" y="76" fill="#334155" font-size="15">Flask / APIs / tools</text>
+      <text x="24" y="102" fill="#64748b" font-size="14">daily problems solved</text>
+      <circle cx="174" cy="46" r="18" fill="#f59e0b"/>
+      <path d="M164 54H184L174 36L164 54Z" fill="#fff"/>
+    </g>
+    <g transform="translate(814 54)">
+      <rect width="214" height="132" rx="22" fill="#f5f3ff" stroke="#ddd6fe"/>
+      <text x="24" y="42" fill="#7c3aed" font-size="22" font-weight="800">Desktop</text>
+      <text x="24" y="76" fill="#334155" font-size="15">Electron / Qt</text>
+      <text x="24" y="102" fill="#64748b" font-size="14">local interactions</text>
+      <circle cx="174" cy="46" r="18" fill="#a855f7"/>
+      <rect x="164" y="38" width="20" height="16" rx="3" fill="#fff"/>
+    </g>
+  </g>
+
+  <text x="70" y="222" fill="#64748b" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="15">idea -> prototype -> field test -> stable tool -> polish</text>
+</svg>
