@@ -1,0 +1,35 @@
+name: Update profile summary
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "45 16 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v5
+
+      - name: Generate local summary SVG
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROFILE_USERNAME: bestxiangest
+        run: python3 scripts/generate_profile_summary.py
+
+      - name: Commit generated summary
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add assets/profile-summary.svg
+          if git diff --cached --quiet; then
+            echo "No profile summary changes."
+          else
+            git commit -m "Update profile summary"
+            git push
+          fi

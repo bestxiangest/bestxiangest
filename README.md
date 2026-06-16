@@ -15,10 +15,10 @@
 
 <p align="center">
   <a href="https://github.com/bestxiangest?tab=followers">
-    <img alt="Followers" src="https://img.shields.io/github/followers/bestxiangest?color=14b8a6&label=Followers&logo=github&style=flat-square" />
+    <img alt="Followers" src="https://img.shields.io/badge/Followers-10-14b8a6?style=flat-square&logo=github" />
   </a>
   <a href="https://github.com/bestxiangest?tab=repositories">
-    <img alt="Repositories" src="https://img.shields.io/badge/Public%20Repos-17-38bdf8?style=flat-square&logo=github" />
+    <img alt="Repositories" src="https://img.shields.io/badge/Public%20Repos-18-38bdf8?style=flat-square&logo=github" />
   </a>
   <img alt="Profile views" src="https://komarev.com/ghpvc/?username=bestxiangest&label=Profile%20Views&color=f59e0b&style=flat-square" />
   <img alt="Timezone" src="https://img.shields.io/badge/UTC%2B8-China-84cc16?style=flat-square" />
@@ -75,21 +75,7 @@
 ## Field Notes
 
 <p align="center">
-  <a href="https://github.com/bestxiangest/Intelligent-Guide-Cane">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=bestxiangest&repo=Intelligent-Guide-Cane&hide_border=true&bg_color=ffffff&title_color=0f766e&text_color=334155&icon_color=f59e0b&border_color=bae6fd&show_owner=false" alt="Intelligent Guide Cane" />
-  </a>
-  <a href="https://github.com/bestxiangest/DeltaForce-Auto-Purchase">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=bestxiangest&repo=DeltaForce-Auto-Purchase&hide_border=true&bg_color=ffffff&title_color=0369a1&text_color=334155&icon_color=14b8a6&border_color=bae6fd&show_owner=false" alt="DeltaForce Auto Purchase" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/bestxiangest/Goods-Trading-Center">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=bestxiangest&repo=Goods-Trading-Center&hide_border=true&bg_color=ffffff&title_color=7c3aed&text_color=334155&icon_color=0ea5e9&border_color=ddd6fe&show_owner=false" alt="Goods Trading Center" />
-  </a>
-  <a href="https://github.com/bestxiangest/clawd-buddy">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=bestxiangest&repo=clawd-buddy&hide_border=true&bg_color=ffffff&title_color=ea580c&text_color=334155&icon_color=f59e0b&border_color=fed7aa&show_owner=false" alt="Clawd Buddy" />
-  </a>
+  <img src="assets/featured-projects.svg" alt="Featured projects" width="98%" />
 </p>
 
 | Project | Signal | Notes |
@@ -116,13 +102,7 @@
 </p>
 
 <p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=bestxiangest&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true&bg_color=ffffff&title_color=0ea5e9&text_color=334155&icon_color=f59e0b&custom_title=bestxiangest%27s%20Build%20Signals" alt="GitHub stats" />
-  <img width="49%" src="https://streak-stats.demolab.com?user=bestxiangest&hide_border=true&background=FFFFFF&ring=14B8A6&fire=F59E0B&currStreakLabel=0EA5E9&sideLabels=64748B&dates=94A3B8" alt="GitHub streak" />
-</p>
-
-<p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bestxiangest&layout=compact&hide_border=true&langs_count=8&bg_color=ffffff&title_color=0f766e&text_color=334155" alt="Top languages" />
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=bestxiangest&theme=github&utcOffset=8" alt="Productive time" />
+  <img width="98%" src="assets/profile-summary.svg" alt="Local profile summary" />
 </p>
 
 <p align="center">
