@@ -75,7 +75,21 @@
 ## Field Notes
 
 <p align="center">
-  <img src="assets/featured-projects.svg" alt="Featured projects" width="98%" />
+  <a href="https://github.com/bestxiangest/Intelligent-Guide-Cane">
+    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=bestxiangest&repo=Intelligent-Guide-Cane&hide_border=true&bg_color=ffffff&title_color=0f766e&text_color=334155&icon_color=f59e0b&border_color=bae6fd&show_owner=false" alt="Intelligent Guide Cane" />
+  </a>
+  <a href="https://github.com/bestxiangest/DeltaForce-Auto-Purchase">
+    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=bestxiangest&repo=DeltaForce-Auto-Purchase&hide_border=true&bg_color=ffffff&title_color=0369a1&text_color=334155&icon_color=14b8a6&border_color=bae6fd&show_owner=false" alt="DeltaForce Auto Purchase" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/bestxiangest/Goods-Trading-Center">
+    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=bestxiangest&repo=Goods-Trading-Center&hide_border=true&bg_color=ffffff&title_color=7c3aed&text_color=334155&icon_color=0ea5e9&border_color=ddd6fe&show_owner=false" alt="Goods Trading Center" />
+  </a>
+  <a href="https://github.com/bestxiangest/clawd-buddy">
+    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=bestxiangest&repo=clawd-buddy&hide_border=true&bg_color=ffffff&title_color=ea580c&text_color=334155&icon_color=f59e0b&border_color=fed7aa&show_owner=false" alt="Clawd Buddy" />
+  </a>
 </p>
 
 | Project | Signal | Notes |
