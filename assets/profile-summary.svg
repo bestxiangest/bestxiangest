@@ -17,7 +17,7 @@
   </defs>
   <rect x="1" y="1" width="958" height="338" rx="28" fill="url(#bg)" stroke="#dbeafe"/>
   <text x="42" y="42" class="title">Local profile signals</text>
-  <text x="690" y="42" class="mono">updated 2026-07-17 17:44</text>
+  <text x="690" y="42" class="mono">updated 2026-07-18 17:40</text>
   
     <g transform="translate(42 68)">
       <rect width="196" height="92" rx="20" fill="#ffffff" stroke="#dbeafe"/>
@@ -31,7 +31,7 @@
       <rect width="196" height="92" rx="20" fill="#ffffff" stroke="#dbeafe"/>
       <circle cx="38" cy="35" r="15" fill="#f59e0b" opacity="0.18"/>
       <circle cx="38" cy="35" r="6" fill="#f59e0b"/>
-      <text x="68" y="39" class="value">149</text>
+      <text x="68" y="39" class="value">148</text>
       <text x="24" y="68" class="small muted">Stars earned</text>
     </g>
   
@@ -39,7 +39,7 @@
       <rect width="196" height="92" rx="20" fill="#ffffff" stroke="#dbeafe"/>
       <circle cx="38" cy="35" r="15" fill="#14b8a6" opacity="0.18"/>
       <circle cx="38" cy="35" r="6" fill="#14b8a6"/>
-      <text x="68" y="39" class="value">11</text>
+      <text x="68" y="39" class="value">13</text>
       <text x="24" y="68" class="small muted">Followers</text>
     </g>
   
@@ -65,11 +65,11 @@
     <text x="358" y="288" class="small muted">18%</text>
     <rect x="42" y="298" width="360" height="9" rx="4.5" fill="#e2e8f0"/>
     <rect x="42" y="298" width="64" height="9" rx="4.5" fill="#f59e0b"/>
-    <text x="500" y="220" class="small">C</text>
+    <text x="500" y="220" class="small">C++</text>
     <text x="816" y="220" class="small muted">12%</text>
     <rect x="500" y="230" width="360" height="9" rx="4.5" fill="#e2e8f0"/>
     <rect x="500" y="230" width="42" height="9" rx="4.5" fill="#a855f7"/>
-    <text x="500" y="254" class="small">C++</text>
+    <text x="500" y="254" class="small">C</text>
     <text x="816" y="254" class="small muted">12%</text>
     <rect x="500" y="264" width="360" height="9" rx="4.5" fill="#e2e8f0"/>
     <rect x="500" y="264" width="42" height="9" rx="4.5" fill="#ef4444"/>
