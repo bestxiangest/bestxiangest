@@ -17,7 +17,7 @@
   </defs>
   <rect x="1" y="1" width="958" height="338" rx="28" fill="url(#bg)" stroke="#dbeafe"/>
   <text x="42" y="42" class="title">Local profile signals</text>
-  <text x="690" y="42" class="mono">updated 2026-08-16 16:59</text>
+  <text x="690" y="42" class="mono">updated 2026-08-17 17:02</text>
   
     <g transform="translate(42 68)">
       <rect width="196" height="92" rx="20" fill="#ffffff" stroke="#dbeafe"/>
@@ -31,7 +31,7 @@
       <rect width="196" height="92" rx="20" fill="#ffffff" stroke="#dbeafe"/>
       <circle cx="38" cy="35" r="15" fill="#f59e0b" opacity="0.18"/>
       <circle cx="38" cy="35" r="6" fill="#f59e0b"/>
-      <text x="68" y="39" class="value">159</text>
+      <text x="68" y="39" class="value">157</text>
       <text x="24" y="68" class="small muted">Stars earned</text>
     </g>
   
@@ -39,7 +39,7 @@
       <rect width="196" height="92" rx="20" fill="#ffffff" stroke="#dbeafe"/>
       <circle cx="38" cy="35" r="15" fill="#14b8a6" opacity="0.18"/>
       <circle cx="38" cy="35" r="6" fill="#14b8a6"/>
-      <text x="68" y="39" class="value">13</text>
+      <text x="68" y="39" class="value">12</text>
       <text x="24" y="68" class="small muted">Followers</text>
     </g>
   
