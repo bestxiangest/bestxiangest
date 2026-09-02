@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="262" viewBox="0 0 1200 262" role="img" aria-label="技术栈分组">
+  <title>Toolbox — 分组技术栈</title>
+  <defs>
+    <linearGradient id="plate" x1="0" y1="0" x2="1200" y2="262" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0d131c"/>
+      <stop offset=".6" stop-color="#0a0e14"/>
+      <stop offset="1" stop-color="#0d131c"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#45d9e8" stop-opacity="0"/>
+      <stop offset=".3" stop-color="#45d9e8" stop-opacity=".85"/>
+      <stop offset=".7" stop-color="#8aa4ff" stop-opacity=".85"/>
+      <stop offset="1" stop-color="#4ade9b" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse">
+      <path d="M26 0H0V26" fill="none" stroke="#1a2734" stroke-width="1"/>
+    </pattern>
+    <clipPath id="plate-clip"><rect width="1200" height="262" rx="20"/></clipPath>
+  </defs>
+  <style>
+    .group { font: 700 11px ui-monospace, SFMono-Regular, "JetBrains Mono", Consolas, monospace; fill: #93a1b1; letter-spacing: 1.2px; }
+    .chip { font: 500 13px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, "PingFang SC", "Microsoft YaHei", sans-serif; fill: #e8eef5; }
+  </style>
+  <g clip-path="url(#plate-clip)">
+    <rect width="1200" height="262" fill="url(#plate)"/>
+    <rect width="1200" height="262" fill="url(#grid)" opacity="0.55"/>
+    <rect width="1200" height="2" fill="url(#edge)"/>
+  </g>
+  <rect x=".75" y=".75" width="1198.5" height="260.5" rx="19.5" fill="none" stroke="#1f2c3b" stroke-width="1.5"/>
+    <rect x="44" y="31" width="3" height="16" rx="1.5" fill="#45d9e8"/>
+    <text x="58" y="43.4" class="group">EMBEDDED</text>
+    <g transform="translate(224 26)"><rect width="96" height="26" rx="8" fill="#121b26" stroke="#1f2c3b"/><circle cx="13" cy="13" r="3.6" fill="#ff4035"/><text x="25" y="17.6" class="chip">ESP32-S3</text></g>
+    <g transform="translate(328 26)"><rect width="74" height="26" rx="8" fill="#121b26" stroke="#1f2c3b"/><circle cx="13" cy="13" r="3.6" fill="#0d95ff"/><text x="25" y="17.6" class="chip">STM32</text></g>
+    <g transform="translate(411 26)"><rect width="82" height="26" rx="8" fill="#121b26" stroke="#1f2c3b"/><circle cx="13" cy="13" r="3.6" fill="#7c8794"/><text x="25" y="17.6" class="chip">51 MCU</text></g>
+    <g transform="translate(500 26)"><rect width="121" height="26" rx="8" fill="#121b26" stroke="#1f2c3b"/><circle cx="13" cy="13" r="3.6" fill="#0ea5e9"/><text x="25" y="17.6" class="chip">传感器 / I²C</text></g>
+    <g transform="translate(629 26)"><rect width="106" height="26" rx="8" fill="#121b26" stroke="#1f2c3b"/><circle cx="13" cy="13" r="3.6" fill="#ff124d"/><text x="25" y="17.6" class="chip">华为云 IoT</text></g>
+    <rect x="44" y="77" width="3" height="16" rx="1.5" fill="#8aa4ff"/>
+    <text x="58" y="89.4" class="group">AI &amp; AUTOMATION</text>
+    <g transform="translate(224 72)"><rect width="82" height="26" rx="8" fill="#121b26" stroke="#1f2c3b"/><circle cx="13" cy="13" r="3.6" fill="#8257ff"/><text x="25" y="17.6" class="chip">OpenCV</text></g>
+    <g transform="translate(314 72)"><rect width="111" height="26" rx="8" fill="#121b26" stroke="#1f2c3b"/><circle cx="13" cy="13" r="3.6" fill="#30b636"/><text x="25" y="17.6" class="chip">Playwright</text></g>
+    <g transform="translate(432 72)"><rect width="90" height="26" rx="8" fill="#121b26" stroke="#1f2c3b"/><circle cx="13" cy="13" r="3.6" fill="#706bff"/><text x="25" y="17.6" class="chip">通义千问</text></g>
+    <g transform="translate(530 72)"><rect width="96" height="26" rx="8" fill="#121b26" stroke="#1f2c3b"/><circle cx="13" cy="13" r="3.6" fill="#5677ff"/><text x="25" y="17.6" class="chip">DeepSeek</text></g>
+    <g transform="translate(635 72)"><rect width="82" height="26" rx="8" fill="#121b26" stroke="#1f2c3b"/><circle cx="13" cy="13" r="3.6" fill="#438fcf"/><text x="25" y="17.6" class="chip">Python</text></g>
+    <rect x="44" y="123" width="3" height="16" rx="1.5" fill="#4ade9b"/>
+    <text x="58" y="135.4" class="group">BACKEND</text>
+    <g transform="translate(224 118)"><rect width="118" height="26" rx="8" fill="#121b26" stroke="#1f2c3b"/><circle cx="13" cy="13" r="3.6" fill="#6db33f"/><text x="25" y="17.6" class="chip">Spring Boot</text></g>
+    <g transform="translate(350 118)"><rect width="74" height="26" rx="8" fill="#121b26" stroke="#1f2c3b"/><circle cx="13" cy="13" r="3.6" fill="#70819e"/><text x="25" y="17.6" class="chip">Flask</text></g>
+    <g transform="translate(432 118)"><rect width="67" height="26" rx="8" fill="#121b26" stroke="#1f2c3b"/><circle cx="13" cy="13" r="3.6" fill="#e76f00"/><text x="25" y="17.6" class="chip">Java</text></g>
+    <g transform="translate(508 118)"><rect width="111" height="26" rx="8" fill="#121b26" stroke="#1f2c3b"/><circle cx="13" cy="13" r="3.6" fill="#4e7dff"/><text x="25" y="17.6" class="chip">PostgreSQL</text></g>
+    <g transform="translate(626 118)"><rect width="74" height="26" rx="8" fill="#121b26" stroke="#1f2c3b"/><circle cx="13" cy="13" r="3.6" fill="#00b0d7"/><text x="25" y="17.6" class="chip">MySQL</text></g>
+    <rect x="44" y="169" width="3" height="16" rx="1.5" fill="#ffc14d"/>
+    <text x="58" y="181.4" class="group">FRONTEND &amp; DESKTOP</text>
+    <g transform="translate(224 164)"><rect width="74" height="26" rx="8" fill="#121b26" stroke="#1f2c3b"/><circle cx="13" cy="13" r="3.6" fill="#41b883"/><text x="25" y="17.6" class="chip">Vue 3</text></g>
+    <g transform="translate(306 164)"><rect width="111" height="26" rx="8" fill="#121b26" stroke="#1f2c3b"/><circle cx="13" cy="13" r="3.6" fill="#3a8eea"/><text x="25" y="17.6" class="chip">TypeScript</text></g>
+    <g transform="translate(425 164)"><rect width="96" height="26" rx="8" fill="#121b26" stroke="#1f2c3b"/><circle cx="13" cy="13" r="3.6" fill="#04a5ff"/><text x="25" y="17.6" class="chip">Three.js</text></g>
+    <g transform="translate(529 164)"><rect width="96" height="26" rx="8" fill="#121b26" stroke="#1f2c3b"/><circle cx="13" cy="13" r="3.6" fill="#4f929f"/><text x="25" y="17.6" class="chip">Electron</text></g>
+    <g transform="translate(634 164)"><rect width="96" height="26" rx="8" fill="#121b26" stroke="#1f2c3b"/><circle cx="13" cy="13" r="3.6" fill="#41cd52"/><text x="25" y="17.6" class="chip">Qt / C++</text></g>
+    <g transform="translate(738 164)"><rect width="103" height="26" rx="8" fill="#121b26" stroke="#1f2c3b"/><circle cx="13" cy="13" r="3.6" fill="#07c361"/><text x="25" y="17.6" class="chip">微信小程序</text></g>
+    <rect x="44" y="215" width="3" height="16" rx="1.5" fill="#45d9e8"/>
+    <text x="58" y="227.4" class="group">GAME &amp; LOW-LEVEL</text>
+    <g transform="translate(224 210)"><rect width="89" height="26" rx="8" fill="#121b26" stroke="#1f2c3b"/><circle cx="13" cy="13" r="3.6" fill="#488fc3"/><text x="25" y="17.6" class="chip">Godot 4</text></g>
+    <g transform="translate(321 210)"><rect width="96" height="26" rx="8" fill="#121b26" stroke="#1f2c3b"/><circle cx="13" cy="13" r="3.6" fill="#558caf"/><text x="25" y="17.6" class="chip">GDScript</text></g>
+    <g transform="translate(425 210)"><rect width="45" height="26" rx="8" fill="#121b26" stroke="#1f2c3b"/><circle cx="13" cy="13" r="3.6" fill="#8899aa"/><text x="25" y="17.6" class="chip">C</text></g>
+    <g transform="translate(478 210)"><rect width="60" height="26" rx="8" fill="#121b26" stroke="#1f2c3b"/><circle cx="13" cy="13" r="3.6" fill="#f65234"/><text x="25" y="17.6" class="chip">Git</text></g>
+</svg>

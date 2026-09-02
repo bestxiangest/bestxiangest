@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="sharp_caterpillar：把想法做成能跑的系统">
+  <title>sharp_caterpillar — 把想法做成能跑的系统</title>
+  <defs>
+    <linearGradient id="plate" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fbfdff"/>
+      <stop offset=".55" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#fbfdff"/>
+    </linearGradient>
+    <linearGradient id="ink" x1="56" y1="96" x2="496" y2="140" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0d97ad"/>
+      <stop offset=".52" stop-color="#4d61d0"/>
+      <stop offset="1" stop-color="#0f8f65"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0d97ad" stop-opacity="0"/>
+      <stop offset=".28" stop-color="#0d97ad"/>
+      <stop offset=".62" stop-color="#4d61d0"/>
+      <stop offset="1" stop-color="#0f8f65" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glowA">
+      <stop offset="0" stop-color="#0d97ad" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#0d97ad" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB">
+      <stop offset="0" stop-color="#4d61d0" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#4d61d0" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse">
+      <path d="M26 0H0V26" fill="none" stroke="#e6eef6" stroke-width="1"/>
+    </pattern>
+    <clipPath id="plate-clip"><rect width="1200" height="300" rx="22"/></clipPath>
+  </defs>
+  <style>
+    .name { font: 800 46px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, "PingFang SC", "Microsoft YaHei", sans-serif; fill: url(#ink); letter-spacing: -1.2px; }
+    .lead { font: 600 25px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, "PingFang SC", "Microsoft YaHei", sans-serif; fill: #0d1a2b; }
+    .mono { font: 500 12.5px ui-monospace, SFMono-Regular, "JetBrains Mono", Consolas, monospace; }
+    .tag  { font: 600 12px ui-monospace, SFMono-Regular, "JetBrains Mono", Consolas, monospace; fill: #0d97ad; letter-spacing: .5px; }
+    .dim { fill: #4d5b6d; }
+    .faint { fill: #8290a1; }
+    .wire { fill: none; stroke: #bfd2e4; stroke-width: 1.8; stroke-linejoin: round;
+             stroke-linecap: round; }
+    .pulse { fill: none; stroke-width: 2.6; stroke-linecap: round; stroke-linejoin: round;
+              stroke-dasharray: 18 150; animation: flow 3.2s linear infinite; }
+    .halo { animation: breathe 3.4s ease-in-out infinite; }
+    @keyframes flow { from { stroke-dashoffset: 168 } to { stroke-dashoffset: 0 } }
+    @keyframes breathe { 0%, 100% { opacity: .08 } 50% { opacity: .26 } }
+  </style>
+  <g clip-path="url(#plate-clip)">
+    <rect width="1200" height="300" fill="url(#plate)"/>
+    <rect width="1200" height="300" fill="url(#grid)" opacity="1"/>
+    <ellipse cx="120" cy="8" rx="440" ry="240" fill="url(#glowA)"/>
+    <ellipse cx="1020" cy="150" rx="400" ry="250" fill="url(#glowB)"/>
+
+    <rect x="56" y="40" width="228" height="27" rx="13.5" fill="#ffffff" stroke="#dde6f0"/>
+    <circle cx="73" cy="53.5" r="3.6" fill="#0f8f65">
+      <animate attributeName="opacity" values="1;.28;1" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <text x="88" y="58" class="tag">STUDENT DEVELOPER · UTC+8</text>
+
+    <text x="56" y="130" class="name">sharp_caterpillar</text>
+    <text x="56" y="172" class="lead">把想法做成能跑的系统</text>
+    <circle cx="60" cy="204" r="2.5" fill="#0d97ad" opacity=".85"/><text x="71" y="208" class="mono dim">AI 自动化</text>
+    <circle cx="162" cy="204" r="2.5" fill="#0d97ad" opacity=".85"/><text x="172" y="208" class="mono dim">嵌入式硬件</text>
+    <circle cx="268" cy="204" r="2.5" fill="#0d97ad" opacity=".85"/><text x="278" y="208" class="mono dim">全栈工具链</text>
+    <circle cx="373" cy="204" r="2.5" fill="#0d97ad" opacity=".85"/><text x="384" y="208" class="mono dim">游戏原型</text>
+    <text x="56" y="243" class="mono faint">ESP32-S3 · OpenCV · Spring Boot · Vue 3 · Electron · Godot 4</text>
+
+    <g>
+    <path d="M804,150 H862 L910,102 H946" class="wire"/>
+    <path d="M804,150 H862 L910,102 H946" class="pulse" stroke="#0d97ad" style="animation-delay:0s"/>
+    <path d="M804,150 H862 L910,198 H946" class="wire"/>
+    <path d="M804,150 H862 L910,198 H946" class="pulse" stroke="#0d97ad" style="animation-delay:0.55s"/>
+    <path d="M946,102 H1010 L1048,64 H1096" class="wire"/>
+    <path d="M946,102 H1010 L1048,64 H1096" class="pulse" stroke="#4d61d0" style="animation-delay:1.0s"/>
+    <path d="M946,102 H1028 L1048,122 H1096" class="wire"/>
+    <path d="M946,102 H1028 L1048,122 H1096" class="pulse" stroke="#0f8f65" style="animation-delay:1.45s"/>
+    <path d="M946,198 H1028 L1048,178 H1096" class="wire"/>
+    <path d="M946,198 H1028 L1048,178 H1096" class="pulse" stroke="#4d61d0" style="animation-delay:1.25s"/>
+    <path d="M946,198 H1010 L1048,236 H1096" class="wire"/>
+    <path d="M946,198 H1010 L1048,236 H1096" class="pulse" stroke="#0f8f65" style="animation-delay:1.7s"/>
+    <circle cx="804" cy="150" r="16.5" fill="#0d97ad" class="halo" style="animation-delay:0s"/>
+    <circle cx="804" cy="150" r="7.5" fill="#0d97ad"/>
+    <circle cx="804" cy="150" r="3.1" fill="#ffffff"/>
+    <circle cx="946" cy="102" r="12.1" fill="#0d97ad" class="halo" style="animation-delay:0.4s"/>
+    <circle cx="946" cy="102" r="5.5" fill="#0d97ad"/>
+    <circle cx="946" cy="102" r="2.3" fill="#ffffff"/>
+    <circle cx="946" cy="198" r="12.1" fill="#0d97ad" class="halo" style="animation-delay:0.8s"/>
+    <circle cx="946" cy="198" r="5.5" fill="#0d97ad"/>
+    <circle cx="946" cy="198" r="2.3" fill="#ffffff"/>
+    <circle cx="1096" cy="64" r="9.9" fill="#4d61d0" class="halo" style="animation-delay:1.2s"/>
+    <circle cx="1096" cy="64" r="4.5" fill="#4d61d0"/>
+    <circle cx="1096" cy="64" r="1.9" fill="#ffffff"/>
+    <circle cx="1096" cy="122" r="9.9" fill="#0f8f65" class="halo" style="animation-delay:1.6s"/>
+    <circle cx="1096" cy="122" r="4.5" fill="#0f8f65"/>
+    <circle cx="1096" cy="122" r="1.9" fill="#ffffff"/>
+    <circle cx="1096" cy="178" r="9.9" fill="#4d61d0" class="halo" style="animation-delay:2.0s"/>
+    <circle cx="1096" cy="178" r="4.5" fill="#4d61d0"/>
+    <circle cx="1096" cy="178" r="1.9" fill="#ffffff"/>
+    <circle cx="1096" cy="236" r="9.9" fill="#0f8f65" class="halo" style="animation-delay:2.4s"/>
+    <circle cx="1096" cy="236" r="4.5" fill="#0f8f65"/>
+    <circle cx="1096" cy="236" r="1.9" fill="#ffffff"/>
+    </g>
+    <text x="950" y="278" class="mono faint" text-anchor="middle">idea  ──▶  prototype  ──▶  shipped system</text>
+
+    <rect y="297" width="1200" height="3" fill="url(#scan)"/>
+  </g>
+</svg>

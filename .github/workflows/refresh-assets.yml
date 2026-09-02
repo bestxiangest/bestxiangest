@@ -1,4 +1,4 @@
-name: Update profile summary
+name: Refresh profile assets
 
 on:
   workflow_dispatch:
@@ -9,27 +9,27 @@ permissions:
   contents: write
 
 jobs:
-  update:
+  refresh:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
       - name: Checkout profile repository
         uses: actions/checkout@v5
 
-      - name: Generate local summary SVG
+      - name: Rebuild SVG assets from GitHub API
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PROFILE_USERNAME: bestxiangest
-        run: python3 scripts/generate_profile_summary.py
+        run: python3 scripts/build_assets.py
 
-      - name: Commit generated summary
+      - name: Commit refreshed assets
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add assets/profile-summary.svg
+          git add assets
           if git diff --cached --quiet; then
-            echo "No profile summary changes."
+            echo "No asset changes."
           else
-            git commit -m "Update profile summary"
+            git commit -m "Refresh profile assets"
             git push
           fi
