@@ -32,7 +32,7 @@
   </g>
   <rect x=".75" y=".75" width="1198.5" height="270.5" rx="19.5" fill="none" stroke="#1f2c3b" stroke-width="1.5"/>
     <text x="44" y="42" class="h">SIGNALS</text>
-    <text x="1156" y="42" class="meta" text-anchor="end">since 2019 · updated 2026-09-02</text>
+    <text x="1156" y="42" class="meta" text-anchor="end">since 2019 · updated 2026-09-03</text>
     <g transform="translate(44 64)"><rect width="266" height="86" rx="14" fill="#121b26" stroke="#1f2c3b"/><rect x="114" y="18" width="38" height="3" rx="1.5" fill="#ffc14d"/><text x="133" y="54" class="big" text-anchor="middle">164</text><text x="133" y="73" class="cap" text-anchor="middle">stars earned</text></g>
     <g transform="translate(326 64)"><rect width="266" height="86" rx="14" fill="#121b26" stroke="#1f2c3b"/><rect x="114" y="18" width="38" height="3" rx="1.5" fill="#45d9e8"/><text x="133" y="54" class="big" text-anchor="middle">22</text><text x="133" y="73" class="cap" text-anchor="middle">public repos</text></g>
     <g transform="translate(608 64)"><rect width="266" height="86" rx="14" fill="#121b26" stroke="#1f2c3b"/><rect x="114" y="18" width="38" height="3" rx="1.5" fill="#8aa4ff"/><text x="133" y="54" class="big" text-anchor="middle">19</text><text x="133" y="73" class="cap" text-anchor="middle">forks</text></g>
@@ -40,19 +40,19 @@
     <text x="44" y="192" class="h">LANGUAGE MIX</text>
     <rect x="44" y="204" width="1112" height="14" rx="7" fill="#1a2734"/>
     <g clip-path="url(#bar-clip)">
-      <rect x="44.0" y="204" width="326.7" height="14" fill="#f1e05a"/>
-      <rect x="370.7" y="204" width="294.1" height="14" fill="#808080"/>
-      <rect x="664.8" y="204" width="161.0" height="14" fill="#f85329"/>
-      <rect x="825.8" y="204" width="154.3" height="14" fill="#568ab6"/>
-      <rect x="980.1" y="204" width="88.6" height="14" fill="#438fcf"/>
-      <rect x="1068.7" y="204" width="37.1" height="14" fill="#f34b7d"/>
-      <rect x="1105.8" y="204" width="50.2" height="14" fill="#5b6b7c"/>
+      <rect x="44.0" y="204" width="329.7" height="14" fill="#f1e05a"/>
+      <rect x="373.7" y="204" width="293.0" height="14" fill="#808080"/>
+      <rect x="666.7" y="204" width="160.3" height="14" fill="#f85329"/>
+      <rect x="827.0" y="204" width="153.7" height="14" fill="#568ab6"/>
+      <rect x="980.7" y="204" width="88.3" height="14" fill="#438fcf"/>
+      <rect x="1069.0" y="204" width="36.9" height="14" fill="#f34b7d"/>
+      <rect x="1106.0" y="204" width="50.0" height="14" fill="#5b6b7c"/>
     </g>
-    <circle cx="48" cy="242" r="4" fill="#f1e05a"/><text x="59" y="246.5" class="legend">JavaScript 29.4%</text>
-    <circle cx="197" cy="242" r="4" fill="#808080"/><text x="208" y="246.5" class="legend">C 26.5%</text>
-    <circle cx="285" cy="242" r="4" fill="#f85329"/><text x="296" y="246.5" class="legend">HTML 14.5%</text>
-    <circle cx="393" cy="242" r="4" fill="#568ab6"/><text x="404" y="246.5" class="legend">GDScript 13.9%</text>
-    <circle cx="528" cy="242" r="4" fill="#438fcf"/><text x="539" y="246.5" class="legend">Python 8.0%</text>
+    <circle cx="48" cy="242" r="4" fill="#f1e05a"/><text x="59" y="246.5" class="legend">JavaScript 29.6%</text>
+    <circle cx="197" cy="242" r="4" fill="#808080"/><text x="208" y="246.5" class="legend">C 26.4%</text>
+    <circle cx="285" cy="242" r="4" fill="#f85329"/><text x="296" y="246.5" class="legend">HTML 14.4%</text>
+    <circle cx="393" cy="242" r="4" fill="#568ab6"/><text x="404" y="246.5" class="legend">GDScript 13.8%</text>
+    <circle cx="528" cy="242" r="4" fill="#438fcf"/><text x="539" y="246.5" class="legend">Python 7.9%</text>
     <circle cx="643" cy="242" r="4" fill="#f34b7d"/><text x="654" y="246.5" class="legend">C++ 3.3%</text>
     <circle cx="738" cy="242" r="4" fill="#5b6b7c"/><text x="749" y="246.5" class="legend">Other 4.5%</text>
 </svg>
