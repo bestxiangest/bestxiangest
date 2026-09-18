@@ -32,7 +32,7 @@
   </g>
   <rect x=".75" y=".75" width="1198.5" height="270.5" rx="19.5" fill="none" stroke="#dde6f0" stroke-width="1.5"/>
     <text x="44" y="42" class="h">SIGNALS</text>
-    <text x="1156" y="42" class="meta" text-anchor="end">since 2019 · updated 2026-09-17</text>
+    <text x="1156" y="42" class="meta" text-anchor="end">since 2019 · updated 2026-09-18</text>
     <g transform="translate(44 64)"><rect width="266" height="86" rx="14" fill="#ffffff" stroke="#dde6f0"/><rect x="114" y="18" width="38" height="3" rx="1.5" fill="#bf7c08"/><text x="133" y="54" class="big" text-anchor="middle">168</text><text x="133" y="73" class="cap" text-anchor="middle">stars earned</text></g>
     <g transform="translate(326 64)"><rect width="266" height="86" rx="14" fill="#ffffff" stroke="#dde6f0"/><rect x="114" y="18" width="38" height="3" rx="1.5" fill="#0d97ad"/><text x="133" y="54" class="big" text-anchor="middle">22</text><text x="133" y="73" class="cap" text-anchor="middle">public repos</text></g>
     <g transform="translate(608 64)"><rect width="266" height="86" rx="14" fill="#ffffff" stroke="#dde6f0"/><rect x="114" y="18" width="38" height="3" rx="1.5" fill="#4d61d0"/><text x="133" y="54" class="big" text-anchor="middle">22</text><text x="133" y="73" class="cap" text-anchor="middle">forks</text></g>
