@@ -32,10 +32,10 @@
   </g>
   <rect x=".75" y=".75" width="1198.5" height="270.5" rx="19.5" fill="none" stroke="#1f2c3b" stroke-width="1.5"/>
     <text x="44" y="42" class="h">SIGNALS</text>
-    <text x="1156" y="42" class="meta" text-anchor="end">since 2019 · updated 2026-10-26</text>
-    <g transform="translate(44 64)"><rect width="266" height="86" rx="14" fill="#121b26" stroke="#1f2c3b"/><rect x="114" y="18" width="38" height="3" rx="1.5" fill="#ffc14d"/><text x="133" y="54" class="big" text-anchor="middle">172</text><text x="133" y="73" class="cap" text-anchor="middle">stars earned</text></g>
+    <text x="1156" y="42" class="meta" text-anchor="end">since 2019 · updated 2026-10-27</text>
+    <g transform="translate(44 64)"><rect width="266" height="86" rx="14" fill="#121b26" stroke="#1f2c3b"/><rect x="114" y="18" width="38" height="3" rx="1.5" fill="#ffc14d"/><text x="133" y="54" class="big" text-anchor="middle">173</text><text x="133" y="73" class="cap" text-anchor="middle">stars earned</text></g>
     <g transform="translate(326 64)"><rect width="266" height="86" rx="14" fill="#121b26" stroke="#1f2c3b"/><rect x="114" y="18" width="38" height="3" rx="1.5" fill="#45d9e8"/><text x="133" y="54" class="big" text-anchor="middle">24</text><text x="133" y="73" class="cap" text-anchor="middle">public repos</text></g>
-    <g transform="translate(608 64)"><rect width="266" height="86" rx="14" fill="#121b26" stroke="#1f2c3b"/><rect x="114" y="18" width="38" height="3" rx="1.5" fill="#8aa4ff"/><text x="133" y="54" class="big" text-anchor="middle">24</text><text x="133" y="73" class="cap" text-anchor="middle">forks</text></g>
+    <g transform="translate(608 64)"><rect width="266" height="86" rx="14" fill="#121b26" stroke="#1f2c3b"/><rect x="114" y="18" width="38" height="3" rx="1.5" fill="#8aa4ff"/><text x="133" y="54" class="big" text-anchor="middle">25</text><text x="133" y="73" class="cap" text-anchor="middle">forks</text></g>
     <g transform="translate(890 64)"><rect width="266" height="86" rx="14" fill="#121b26" stroke="#1f2c3b"/><rect x="114" y="18" width="38" height="3" rx="1.5" fill="#4ade9b"/><text x="133" y="54" class="big" text-anchor="middle">11</text><text x="133" y="73" class="cap" text-anchor="middle">followers</text></g>
     <text x="44" y="192" class="h">LANGUAGE MIX</text>
     <rect x="44" y="204" width="1112" height="14" rx="7" fill="#1a2734"/>
@@ -44,7 +44,7 @@
       <rect x="359.3" y="204" width="275.2" height="14" fill="#f1e05a"/>
       <rect x="634.5" y="204" width="244.2" height="14" fill="#808080"/>
       <rect x="878.7" y="204" width="128.1" height="14" fill="#568ab6"/>
-      <rect x="1006.9" y="204" width="76.7" height="14" fill="#438fcf"/>
+      <rect x="1006.8" y="204" width="76.7" height="14" fill="#438fcf"/>
       <rect x="1083.5" y="204" width="30.8" height="14" fill="#f34b7d"/>
       <rect x="1114.3" y="204" width="41.7" height="14" fill="#5b6b7c"/>
     </g>
