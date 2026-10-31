@@ -32,7 +32,7 @@
   </g>
   <rect x=".75" y=".75" width="1198.5" height="270.5" rx="19.5" fill="none" stroke="#dde6f0" stroke-width="1.5"/>
     <text x="44" y="42" class="h">SIGNALS</text>
-    <text x="1156" y="42" class="meta" text-anchor="end">since 2019 · updated 2026-10-30</text>
+    <text x="1156" y="42" class="meta" text-anchor="end">since 2019 · updated 2026-10-31</text>
     <g transform="translate(44 64)"><rect width="266" height="86" rx="14" fill="#ffffff" stroke="#dde6f0"/><rect x="114" y="18" width="38" height="3" rx="1.5" fill="#bf7c08"/><text x="133" y="54" class="big" text-anchor="middle">172</text><text x="133" y="73" class="cap" text-anchor="middle">stars earned</text></g>
     <g transform="translate(326 64)"><rect width="266" height="86" rx="14" fill="#ffffff" stroke="#dde6f0"/><rect x="114" y="18" width="38" height="3" rx="1.5" fill="#0d97ad"/><text x="133" y="54" class="big" text-anchor="middle">24</text><text x="133" y="73" class="cap" text-anchor="middle">public repos</text></g>
     <g transform="translate(608 64)"><rect width="266" height="86" rx="14" fill="#ffffff" stroke="#dde6f0"/><rect x="114" y="18" width="38" height="3" rx="1.5" fill="#4d61d0"/><text x="133" y="54" class="big" text-anchor="middle">25</text><text x="133" y="73" class="cap" text-anchor="middle">forks</text></g>
@@ -42,10 +42,10 @@
     <g clip-path="url(#bar-clip)">
       <rect x="44.0" y="204" width="374.7" height="14" fill="#c9bb4b"/>
       <rect x="418.7" y="204" width="277.7" height="14" fill="#e34c26"/>
-      <rect x="696.5" y="204" width="215.2" height="14" fill="#555555"/>
+      <rect x="696.4" y="204" width="215.1" height="14" fill="#555555"/>
       <rect x="911.6" y="204" width="112.9" height="14" fill="#355570"/>
-      <rect x="1024.5" y="204" width="67.7" height="14" fill="#3572a5"/>
-      <rect x="1092.1" y="204" width="27.1" height="14" fill="#f34b7d"/>
+      <rect x="1024.4" y="204" width="67.7" height="14" fill="#3572a5"/>
+      <rect x="1092.2" y="204" width="27.1" height="14" fill="#f34b7d"/>
       <rect x="1119.3" y="204" width="36.7" height="14" fill="#8290a1"/>
     </g>
     <circle cx="48" cy="242" r="4" fill="#c9bb4b"/><text x="59" y="246.5" class="legend">JavaScript 33.7%</text>
